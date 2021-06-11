@@ -1,0 +1,15 @@
+.table {
+    width: 80%;
+    height: 60%;
+    overflow-y: auto;
+}
+
+table, tr, td, tbody, thead {
+    border: 0.5vmin solid var(--text-color);
+}   
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}

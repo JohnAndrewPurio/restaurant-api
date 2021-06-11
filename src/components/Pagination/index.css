@@ -1,0 +1,13 @@
+.pagination {
+    display: flex;
+    gap: 2vmin;
+}
+
+.pagination button {
+    width: 8vmin;
+    height: 8vmin;
+    padding: 1.5vmin;
+    border-radius: 50%;
+    border: 0.5vmin solid var(--text-color);
+    background-color: firebrick;
+}

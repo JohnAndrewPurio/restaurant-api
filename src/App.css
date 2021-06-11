@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #010b13;
+  --secondary: firebrick;
+  --text-color: white;
+}
+
+button, .App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-bg);
+  flex-direction: column;
+  padding: 2vmin;
+}
+
+.App > * {
+  margin: 1.5vmin;
+}
+
+.App > h2 {
+  height: 10%;
+  width: 100%;
+}
