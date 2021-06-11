@@ -5,16 +5,17 @@ import { selectCurrentGenre, searchRestaurantData } from '../../redux/actions'
 
 export default function Filter() {
     const genres = useSelector(state => state.genres)
-    const currentGenre = useSelector(state => state.currentGenre)
+    // const currentGenre = useSelector(state => state.currentGenre)
+    // const searchQuery = useSelector(state => state.searchQuery)
     const dispatch = useDispatch()
 
-    useEffect(() => {
+    // useEffect(() => {
 
-    }, [currentGenre] )
+    // }, [currentGenre] )
 
-    useEffect(() => {
+    // useEffect(() => {
 
-    }, [searchQuery] )
+    // }, [searchQuery] )
 
     const selectGenre = (e) => {
         dispatch( selectCurrentGenre(e.target.value) )

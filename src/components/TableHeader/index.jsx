@@ -6,7 +6,7 @@ export default function TableHeader() {
     return (
         <thead>
             {
-                queries.map( query => <TableCell key={query} data={ query } /> )
+                queries.map( (query, index) => <TableCell key={query} data={ query } index={index} /> )
             }
         </thead>
     )

@@ -1,4 +1,14 @@
-import { STORE_RESTAURANT_DATA, TOGGLE_CURRENT_PAGE } from './action_type'
+import { STORE_RESTAURANT_DATA, TOGGLE_CURRENT_PAGE, SELECT_CURRENT_GENRE, SEARCH_RESTAURANT_DATA } from './action_type'
+
+export const searchRestaurantData = (payload) => ({
+    type: SEARCH_RESTAURANT_DATA,
+    payload: payload
+})
+
+export const selectCurrentGenre = (payload) => ({
+    type: SELECT_CURRENT_GENRE,
+    payload: payload
+})
 
 export const storeRestaurantData = (payload) => ({
     type: STORE_RESTAURANT_DATA,

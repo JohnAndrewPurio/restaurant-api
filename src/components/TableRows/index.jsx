@@ -9,7 +9,7 @@ export default function TableRows({data}) {
     return (
         <tr>
             {
-                keysArray.map( key => <TableCell key={data[key]} data={data[key]} />)
+                keysArray.map( (key, index) => <TableCell key={data[key]} data={data[key]} index={index} />)
             } 
         </tr>
     )

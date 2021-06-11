@@ -1,0 +1,20 @@
+.table-cell {
+    min-height: 7vmin;
+}
+
+.name, .telephone {
+    width: 20%;
+}
+
+.city {
+    width: 15%;
+}
+
+.state {
+    width: 5%;
+}
+
+.genre {
+    width: 40%;
+}
+

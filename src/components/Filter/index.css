@@ -1,0 +1,14 @@
+.filters {
+    display: flex;
+    gap: 3vmin;
+}
+
+.search, .select-genre {
+    display: flex;
+    gap: 0.75vmin;
+    align-items: center;
+}
+
+.search input {
+    padding: 1vmin;
+}
