@@ -1,7 +1,7 @@
 import './index.css'
 import TableCell from '../TableCell'
+import { queries } from '../../config'
 
-const queries = ['name', 'city', 'state', 'telephone', 'genre']
 
 export default function TableRows({data}) {
     const keysArray = Object.keys(data).filter( key => queries.includes(key) )

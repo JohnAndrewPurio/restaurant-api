@@ -11,3 +11,8 @@
     border: 0.5vmin solid var(--text-color);
     background-color: firebrick;
 }
+
+.pagination button:disabled {
+    background-color: transparent;
+    opacity: 0.6;
+}
