@@ -34,7 +34,6 @@ function searchRestaurantData(state, payload) {
 function filteredSearchData(data, query) {
     const searchedData = data.filter( current => {
         const val = checkSearchFilter(current, query)
-        console.log(val)
 
         return val
     })

@@ -9,7 +9,9 @@
     padding: 1.5vmin;
     border-radius: 50%;
     border: 0.5vmin solid var(--text-color);
-    background-color: firebrick;
+    background-color: var(--secondary);
+    font-weight: bold;
+    display: flex;
 }
 
 .pagination button:disabled {

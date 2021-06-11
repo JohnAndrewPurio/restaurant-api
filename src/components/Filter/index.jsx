@@ -9,14 +9,6 @@ export default function Filter() {
     // const searchQuery = useSelector(state => state.searchQuery)
     const dispatch = useDispatch()
 
-    // useEffect(() => {
-
-    // }, [currentGenre] )
-
-    // useEffect(() => {
-
-    // }, [searchQuery] )
-
     const selectGenre = (e) => {
         dispatch( selectCurrentGenre(e.target.value) )
     }
