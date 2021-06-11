@@ -1,5 +1,6 @@
 import './index.css'
 import TableRows from '../TableRows'
+import TableHeader from '../TableHeader'
 import { useSelector } from 'react-redux'
 
 const itemsPerPage = 10
@@ -12,6 +13,7 @@ export default function DataTable() {
     return (
         <div className='data-table'>
             <table>
+                <TableHeader />
                 <tbody>
                     {
                         currentPageData.map( (data, index) => <TableRows key={index} data={data} />)
