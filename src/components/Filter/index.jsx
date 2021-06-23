@@ -1,5 +1,4 @@
 import './index.css'
-import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { selectCurrentGenre, searchRestaurantData } from '../../redux/actions'
 
