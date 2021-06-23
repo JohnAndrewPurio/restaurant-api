@@ -5,7 +5,7 @@ import { toggleCurrentPage } from '../../redux/actions'
 export default function Pagination() {
     const dispatch = useDispatch()
     const currentPage = useSelector(state => state.currentPage)
-    const filteredData = useSelector(state => state.filteredData)
+    const filteredData = useSelector(state => state.mergedData)
     const maxPage = Math.ceil( filteredData.length / 10 )
 
     const togglePage = (page) => {

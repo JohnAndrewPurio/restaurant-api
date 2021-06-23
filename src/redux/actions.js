@@ -1,4 +1,9 @@
-import { STORE_RESTAURANT_DATA, TOGGLE_CURRENT_PAGE, SELECT_CURRENT_GENRE, SEARCH_RESTAURANT_DATA } from './action_type'
+import { STORE_RESTAURANT_DATA, TOGGLE_CURRENT_PAGE, SELECT_CURRENT_GENRE, SEARCH_RESTAURANT_DATA, MERGE_FILTER_AND_SEARCH } from './action_type'
+
+export const mergeFilterAndSearch = (payload) => ({
+    type: MERGE_FILTER_AND_SEARCH,
+    payload: payload
+})
 
 export const searchRestaurantData = (payload) => ({
     type: SEARCH_RESTAURANT_DATA,

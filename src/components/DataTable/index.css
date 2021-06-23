@@ -2,6 +2,9 @@
     width: 90%;
     height: 80%;
     overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 table {
@@ -10,8 +13,9 @@ table {
     border-collapse: collapse;
 }
 
-td {
+td, th {
     border: 0.5vmin solid var(--text-color);
+    padding: 1vmin;
 }   
 
 tbody, thead {

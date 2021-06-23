@@ -5,9 +5,11 @@ import { queries } from '../../config'
 export default function TableHeader() {
     return (
         <thead>
+            <tr>
             {
-                queries.map( (query, index) => <TableCell key={query} data={ query } index={index} /> )
+                queries.map( (query, index) => <TableCell key={query} data={ query } index={index} header={true} /> )
             }
+            </tr>
         </thead>
     )
 }
